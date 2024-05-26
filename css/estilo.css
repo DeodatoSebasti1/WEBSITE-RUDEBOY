@@ -1,0 +1,357 @@
+*{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.p1{
+    padding-bottom: 20px;
+ }
+.p1 h5{
+   color: white;
+   padding-bottom: 10px;
+}
+.p1 li{
+    font-size: 15px;
+    color: white;
+}
+
+.p2{
+    padding-right: 50px;
+}
+.pacotes_e_produtos, .contactos, .sobrenos{
+    margin-top: 40px;
+ }
+/*________________________________CABECALHO NAVBAR_____________________________*/
+/*COR NAVBAR*/
+.navbar{
+    background-color: #1a0303;
+    /*background-color: #778899;*/
+}
+
+/* COR DOS LINKS */
+.nav-link{
+    color: white;
+}
+/* cor do login */
+
+.login_menu{
+    color: white;
+    border: 1px solid #ff3b3b;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.login_menu:hover{
+    color: #ff3b3b;
+}
+.carousel{
+    margin-top: 60px;
+}
+/*________________________________ icones   _____________________________*/
+.icones{
+    background-color: #1b1919;
+    color: white;
+    padding-bottom: 40px;
+}
+.icones h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 50px;
+}
+.icones span{
+
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+}
+.foto{
+    width: 60px;
+}
+/*______________________________Atleta________________________________________*/
+
+.atleta_esquerdo h1{
+ text-align: center;
+ padding-top: 40px;
+
+}
+.atleta_esquerdo p{
+    font-size: 20px;
+ padding-top: 10px;
+}
+.atleta_direito{
+    width: 50%; 
+    float: right;
+}
+/*____________________________destaques_____________________________________________*/
+.destaques{
+    background-color: #4c77a2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*___________________________dicas de saude__________________________________________*/
+
+
+.dicas_de_saude{
+background-image: url(../img/IMG_1025.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.dicas_de_saude h1{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.dicas_de_saude p{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.dicas_de_saude h3{
+    color: white;
+    font-size: 28px;
+}
+/*_________________________rodape_____________________________________*/
+
+
+.rodape{
+    background-color: #131402;
+    color: rgb(215, 209, 209);
+}
+
+.rodape h4{
+text-align: center;
+    margin-top: 30px;
+}
+.rodape p{
+    text-align: center;
+    margin-top: 30px;
+}
+.rodape2 {
+    background-color: #141517;
+}
+.rodape span{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icone{
+    margin-top: 20px; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+ .icone a{
+    color: white;
+ }
+ .icone i{
+    font-size: 30px;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+
+ .info_rodape li{
+    list-style: none;
+ }
+ .card li{
+    list-style: none;
+ }
+ .card p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+ .card h3{
+    margin-top: -10px;
+    margin-bottom: 0px;
+ }
+ /*______________________________produtos e pacotes____________*/
+.pacotes{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.pacotes h3{
+    padding-bottom: 10px;
+    text-align: center;
+}    
+
+.produtos{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.produtos h3{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/*-_____________________________fale connosco______________________*/
+
+.experimental {
+    padding-top: 250px;
+    padding-left: 37% ;
+}
+.experimental a {
+    background-color:#4c77a2;
+    margin-top: 250px;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.sobrenos h3{
+ padding-top: 45px;
+}
+.sobrenos p{
+  padding-left: 70px;
+  padding-right: 70px; 
+}
+
+.Missao {
+
+    font-size: 18px;
+}
+
+
+.Missao h1{
+    text-align: center;
+        padding-top: 30px; 
+}
+
+.Missao p{
+
+    padding-top: 30px; 
+    padding-left: 70px;
+    padding-right: 70px; 
+    padding-bottom: 20px;
+}
+
+.equipeinstalacoes{
+    background-color: #1a0303;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.equipeinstalacoes h3{
+    padding-bottom: 20px;
+    text-align: center;
+}    
+.nossosparceiros{
+    text-align: center;
+     
+}
+.nossosparceiros h3{
+    padding-top:20px;
+    padding-bottom: 20px;
+
+}
+.card-img-top2{
+    height: 250px;
+    border-radius: 1rem;
+}
+
+.parceirosimg{
+    height:150px;
+    padding-bottom: 20px;
+
+}
+
+/* ____________________formulario____________*/
+.formulario_login{
+    padding: 50px;
+    background-color: #131414;
+    height: auto;
+    width: 400px;
+    margin: auto;
+    margin-top: 17%;
+    margin-right: 500px;
+    border-radius: 20px;
+}   
+
+.formulario_login input{
+    width: 300px;
+
+} 
+.formulario_login h2{
+    text-align: center;
+    color: white;
+    border: none;
+}  
+.formulario_login a {
+    color: #fff;
+    text-decoration: none;
+} 
+
+.btn_login{
+    background-color: #ff3b3b ;
+    border-radius: 10px;
+    border: none;
+    margin-top: 14px;
+}
+.btn_login:hover{
+    background-color: white;
+}
+
+/* icone */
+
+.icones{
+    padding-top: 50px;
+}
+
+/*__________________login________*/
+
+.completo{
+    display: flex;
+    height: 815px;
+    background-size: cover;
+}
+.log_esquerdo{
+    width:40% ;
+}   
+.log_direito{
+    width:58% ;
+}
+
+.log_direito{
+    color: #ff3b3b;
+}
+.input_login{
+    height: 34px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+/* erro input*/
+.erro_login{
+    color: #ff3b3b;
+}
+/* erro input*/
+.erro_input{
+    border: 2px solid #ff3b3b !important;
+    box-shadow: #ff3b3b;
+}
+.span{
+   font-size: 13px;
+   color:#ff3b3b;
+   display: none;
+   margin:5px;
+}
+
+
+.invalido{
+    border: 2px solid #ff3b3b !important;
+    box-shadow: #ff3b3b;
+}

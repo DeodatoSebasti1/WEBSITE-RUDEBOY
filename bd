@@ -1,0 +1,102 @@
+=============                                     ==============
+============= 2º INSERINDO DADOS NA BASE DE DADOS ==============
+=============                                     ==============
+
+#==== criando a base de dados ====
+    create database gimybd
+    use gimybd
+
+#criando a tabela nivel de acesso
+    create table tb_nivel(
+        id_nivel int primary key not null auto_increment,
+        descricao varchar(30) not null
+    )
+#criando a tabela Usuario
+    create table tb_usuario(
+        id_usuario int primary key not null auto_increment,
+        fk_nivel int not null,
+        nome varchar(25) not null,
+        sobrenome varchar(25) not null,
+        data_nascimento timestamp not null,
+        genero varchar(15) not null,
+        telefone int not null,
+        telefone2 int not null,
+        usuario varchar(25) not null,
+        email varchar(25),
+        palavrapasse varchar(25) not null,
+        data_registro datetime not null,
+        foreign key (fk_nivel) references tb_nivel (id_nivel) on update
+
+
+    )
+#criando a tabela Produto
+    create table tb_produto(
+        id_produto int primary key not null auto_increment,
+        fk_usuario int not null,
+        nome varchar(25) not null,
+        cor varchar(25) not null,
+        tamanho varchar(25) not null,
+        preco int not null,
+        quantidade_ext int not null,
+        data_cadastro datetime not null,
+        foreign key (fk_usuario) references tb_usuario(id_usuario) on update
+    )
+#criando a tabela venda
+    create table tb_venda(
+        id_venda int primary key not null auto_increment,
+        fk_usuario int not null,
+        fk_produto int not null,
+        quantidade int not null,
+        data_venda datetime not null
+        foreign key (fk_usuario) references tb_usuario (id_usuario) on update,
+        foreign key ( fk_produto) references tb_produto (id_produto) on update
+    )
+#criando a stock entrada
+    create table tb_stcok_entrada(
+        id_entrada int primary key not null auto_increment,
+        fk_produto int not null,
+        quantidade_entrada int not null,
+        data_entrada timestamp not null,
+        foreign key (fk_produto) references tb_produto (id_produto) on update
+    )
+#criando a stock saida
+    create table tb_stcok_saida(
+        id_saida int primary key not null auto_increment,
+        fk_venda int not null,
+        quantidade_saida int not null,
+        quantidade_restante int not null,
+        data_saida datetime not null
+        foreign key (fk_venda) references tb_venda (id_venda) on update 
+    )
+#criando a tabela atleta
+    create table tb_atleta(
+        id_atleta int primary key not null auto_increment,
+        fk_usuario int not null,
+        nome varchar(25) not null,
+        sobrenome varchar(25) not null,
+        bi varchar (15) not null,
+        data_nascimento date not null
+        genero varchar(25) not null,
+        telefone int not null,
+        telefone2 int not null,
+        turno varchar(25) not null,
+        data_cadastro datetime not null
+        foreign key (fk_usuario) references tb_usuario (id_usuario) on update
+    )
+#criando a tabela pagamentos
+    create table tb_pagamento(
+        id_pagamento int primary key not null auto_increment,
+        fk_usuario int not null,
+        fk_atleta int not null,
+        fk_mes int not null,
+        valor int not null,
+        data_pagamento datetime not null
+        foreign key (fk_usuario) references tb_usuario (id_usuario) on update,
+        foreign key (fk_atleta) references tb_atleta (id_atleta) on update,
+        foreign key (fk_mes) references tb_mes (id_mes) on update
+    )
+#
+create tabela meses(
+    id_mes int not null primary key auto_increment,
+    descricao varchar(25) not null
+)

@@ -1,0 +1,152 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+/*________________________________ CARROUSSEL _____________________________*/
+.fotocar{
+    height: 225px;
+}
+
+
+
+/*________________________________ icones   _____________________________*/
+    .icones{
+        background-color: #1b1919;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .icones span{
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .foto{
+        width: 45px;
+       
+    }
+
+/*________________________________ cards   _____________________________*/
+
+.card{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 225px;
+}
+.card h3{
+    font-size: 13px;
+    margin-top: -10px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.card p{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.card span{
+    font-size: 13px;
+}
+
+/* card li*/
+
+.card li{
+    font-size: 13px;
+}
+.card-img, .card-img-top {
+    margin: 0 auto;
+    width: 70%;
+    height: 100px;
+}
+.produtos h3, .pacotes h3{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.card-img-top2{
+    height: 223px;
+}
+
+  /*_______________sobreno, equipe, instalacoes_________s*/
+  .equipeinstalacoes h3{
+    font-size: 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-weight: bolder;
+} 
+.sobrenos p{
+    font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+} 
+.sobrenos h3{
+    font-size: 15px;
+    padding-top: 0px;
+    font-weight: bolder;
+} 
+
+  /*_______________missao_________s*/
+  .Missao h1{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-weight: bolder;
+} 
+.Missao p{
+    font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+} 
+
+  /*_______________dicas saude_________s*/
+  .dicas_de_saude h1{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-weight: bolder;
+} 
+.p1 h5{
+    font-size: 13px;
+} 
+.p1 li{
+    font-size: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+/*_______________parceiros_________s*/
+  .nossosparceiros h3{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-weight: bolder;
+} 
+
+.info_rodape h4{
+    font-size: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+} 
+.info_rodape li{
+    font-size: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+} 
+.rodape{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+} 
+.rodape2 span{
+font-size: 10px;
+} 
+
+.login_menu{
+    display: none;
+}
+}
